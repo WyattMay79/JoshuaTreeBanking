@@ -5,7 +5,7 @@ import { getLoggedInUser } from "@/lib/actions/user.actions";
 import { Lasso } from "lucide-react";
 import React from "react";
 
-const Home = async() => {
+const Home = async () => {
     const loggedIn = await getLoggedInUser();
 
     return (
